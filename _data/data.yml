@@ -16,7 +16,7 @@ sidebar:
     email: fioan89@gmail.com
     phone: +40 075 326 7253
     timezone: Europe/Bucharest  (UTC/GMT+2:00)
-    website: ifaur.substack.com/
+    website: ifaur.substack.com
     linkedin: faur-ioan-aurel-5869bb45
     github: fioan89
     telegram: # add your nickname without '@' sign
@@ -39,7 +39,7 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Reading SF&Manga
+        - item: Reading SF & Manga
           link:
 
         - item: Proagramming
@@ -58,7 +58,7 @@ career-profile:
     title: Career Profile
     summary: |
       I’m a passionate and results-driven software engineer with over 11 years of experience in the industry.
-      adipiscing elit. I've had the opportunity to work on very large products, which has really honed
+      I've had the opportunity to work on very large products, which has really honed
       my skills in debugging, troubleshooting, and understanding complex system architectures.
       My main expertise lies in Java-based technologies with a focus on Kotlin, Gradle, Groovy, Spock, Android app development, OSGI, iPOJO, and IntelliJ Platform plugins.
       Recently, I've also been exploring the path of becoming an indie hacker.
@@ -80,9 +80,9 @@ experiences:
         company: Broadridge, Cluj-Napoca
         details: |
            I joined Ullink, a French company later acquired by the renowned Broadridge, as a Java software developer in 2016.
-           By 2021, I advanced to the role of Technical Architect for a low-latency, distributed pre-trade risk management solution. 
+           By 2021, I advanced to the role of Technical Architect for the low-latency, distributed pre-trade risk management solution. 
            My responsibilities include
-            - designing and implementing low latency algorithms for processing high volumes of data that requires real-time risk assessment
+            - designing and implementing low latency algorithms for processing high volumes of data that requires sub millisecond risk assessment
             - improving performance and memory consumption
             - optimizing client/server interactions
       - role: Software Engineer Contractor
@@ -127,8 +127,8 @@ experiences:
         time: August 2013 - September 2016
         company: Hewlett Packard Enterprise (formerly Hewlett Packard), Cluj-Napoca
         details: |
-          Worked on the server side of Server Automation, a server management solution from HP. During my three years there I was part of the Software Management and Patching team and worked on many solutions:
-            - automate the creation of different Linux package formats (deb, rpm) and insta number of servers
+          Worked on the back-end of Server Automation, a server management solution from HP. During my three years there I was part of the Software Management and Patching team and worked on many solutions:
+            - automate the creation of different Linux package formats (deb, rpm) and install on a large number of servers
             - integration with RedHat Satellite and RHN Proxy for air‑gaped environments
       - role: Software Engineer Intern
         time: July 2012 - September 2012
@@ -139,7 +139,7 @@ experiences:
 projects:
     title: Projects
     intro: >
-      Most of my projects are open-source, allowing anyone to view and contribute to the code. For some other projects, I am exploring the world of indie hacking, where you can only see the final products.
+      Most of my projects are open-source, allowing anyone to view and contribute to the code. For some other projects I am exploring the world of indie hacking, where you can only see the final products.
       
     assignments:
       - title: Source Synchronizer Pro
@@ -148,14 +148,14 @@ projects:
       
       - title: Source Synchronizer
         link: "https://plugins.jetbrains.com/plugin/7374-source-synchronizer?noRedirect=true"
-        tagline: "The very popular open-source variant of Source Synchronizer with a limited set of features."
+        tagline: "A very popular open-source variant of Source Synchronizer with a limited set of features."
 
       - title: BlueTrigger
         link: "https://play.google.com/store/apps/details?id=com.ifaur.bluetrigger"
         tagline: "A user friendly Android app that enables quick and hassle-free media app launches seamlessly when your Bluetooth devices connect."
 
       - title: Price Cutdown
-        link: "https://github.com/fioan89/Price‑Cutdown"
+        link: "https://github.com/fioan89/Price-Cutdown"
         tagline: "A python tool for crawling and monitoring the price fluctuations for some online markets like emag.ro and cel.ro"
 
       - title: Slidewall
@@ -214,10 +214,7 @@ skills:
    
       - name: Ktor
         level: 90%
-
-      - name: Koin
-        level: 90%
-
+        
       - name: Gradle
         level: 90%
 
