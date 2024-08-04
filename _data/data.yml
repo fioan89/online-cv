@@ -200,23 +200,39 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Java & Kotlin
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: IntelliJ Plugin Development
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: Android Development
+        level: 90%
 
-      - name: HTML5 & CSS
+      - name: Jetpack Compose
+        level: 90%
+   
+      - name: Ktor
+        level: 90%
+
+      - name: Koin
+        level: 90%
+
+      - name: Gradle
+        level: 90%
+
+      - name: Groovy
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: OSGI & iPOJO
+        level: 90%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Spring & SpringBoot
+        level: 90%
+
+      - name: Quarkus
+        level: 85%
+        
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
