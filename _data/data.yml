@@ -70,13 +70,13 @@ experiences:
     title: Experiences
     info:
       - role: Technical Architect
-        time: 2016 - Present
+        time: September 2016 - Present
         company: Broadridge, Cluj-Napoca
         details: |
            I joined Ullink, a French company later acquired by the renowned Broadridge, as a Java software developer in 2016.
            By 2021, I advanced to the role of Technical Architect for a low-latency, distributed pre-trade risk management solution. 
            My responsibilities include
-            - designing and implementing low latency algorithms for processing high volume of data that requires real-time risk assessment
+            - designing and implementing low latency algorithms for processing high volumes of data that requires real-time risk assessment
             - improving performance and memory consumption
             - optimizing client/server interactions
       - role: Software Engineer Contractor
@@ -84,7 +84,7 @@ experiences:
         company: Coder, Texas
         details: |
           This oportunity allowed me to dive into Jetbrains' new project at the time - Gateway, a single entry point to all development environments.
-          I was tasked with developin a Gateway plugin to seamlessly integrate Coder workspaces in all JetBrains IDEs.
+          I was tasked with developing a Gateway plugin to seamlessly integrate Coder workspaces in all JetBrains IDEs.
           Some of my responsabilities and work included:
             - designing & developing the new Gateway plugin
             - collaborating with the Coder team to incorporate necessary features into the plugin
@@ -108,58 +108,27 @@ experiences:
             - https://github.com/JetBrains/projector‑server/pull/12
             - https://github.com/JetBrains/projector‑server/pull/15
             - https://github.com/JetBrains/projector‑client/pull/13
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+      - role: Cofounder at Medware Labs
+        time: November 2017 - 2024
+        company: Medware Labs, Cluj-Napoca
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          In 2017, I co-founded a small medical software company with three friends.
+          Since then, I have designed and implemented two Android apps specifically for surgeons and orthopedic doctors to prevent thrombosis (a blood clot that forms within a vein).
+          The apps are targeted at a niche group of doctors and are intended to streamline and simplify the official guidelines and protocols required by the Romanian Government and Health Ministry. 
+          Initially, we experimented with a revenue model where pharmaceutical companies could advertise their drugs through our apps when the protocols recommended a generic drug. 
+          Our efforts included cold calls which initially provided some revenue. However, over time, our lack of marketing skills and drive to continue the sales effort became apparent. Revenue declined, and we are now primarily focused on fixing bugs.
+      - role: Software Engineer
+        time: August 2013 - September 2016
+        company: Hewlett Packard Enterprise (formerly Hewlett Packard), Cluj-Napoca
+        details: |
+          Worked on the server side of Server Automation, a server management solution from HP. During my three years there I was part of the Software Management and Patching team and worked on many solutions:
+            - automate the creation of different Linux package formats (deb, rpm) and insta number of servers
+            - integration with RedHat Satellite and RHN Proxy for air‑gaped environments
+      - role: Software Engineer Intern
+        time: July 2012 - September 2012
+        company: Hewlett Packard Enterprise (formerly Hewlett Packard), Cluj-Napoca
+        details: |
+          Designed and developed a Linux package import/export frontend for the UI side of Server Automation.
 
 projects:
     title: Projects
