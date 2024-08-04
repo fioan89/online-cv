@@ -139,29 +139,28 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Most of my projects are open-source, allowing anyone to view and contribute to the code. For some other projects, I am exploring the world of indie hacking, where you can only see the final products.
+      
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Source Synchronizer Pro
+        link: "https://plugins.jetbrains.com/plugin/22318-source-synchronizer-pro?noRedirect=true"
+        tagline: "A fast, one-way file synchronization plugin for your IntelliJ projects, offering seamless transfer, synchronization, and comparison of local and remote files with features like SCP/SSH protocols, password/key pair authentication, timestamp preservation, file filtering, and a user-friendly UI that supports IntelliJ's New UI."
+      
+      - title: Source Synchronizer
+        link: "https://plugins.jetbrains.com/plugin/7374-source-synchronizer?noRedirect=true"
+        tagline: "The very popular open-source variant of Source Synchronizer with a limited set of features."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: BlueTrigger
+        link: "https://play.google.com/store/apps/details?id=com.ifaur.bluetrigger"
+        tagline: "A user friendly Android app that enables quick and hassle-free media app launches seamlessly when your Bluetooth devices connect."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Price Cutdown
+        link: "https://github.com/fioan89/Price‑Cutdown"
+        tagline: "A python tool for crawling and monitoring the price fluctuations for some online markets like emag.ro and cel.ro"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Slidewall
+        link: "https://launchpad.net/~fioan89/+archive/ubuntu/slidewall"
+        tagline: "Automated wallpaper clocks for your Ubuntu desktop"
 
 oss:
     title: OSS Contributions
