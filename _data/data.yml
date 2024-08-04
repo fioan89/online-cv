@@ -165,21 +165,36 @@ projects:
 oss:
     title: OSS Contributions
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Some contributions were part of the consultancy work I've done while others were done in my free time.
+      
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Coder Gateway plugin
+        link: "https://github.com/coder/jetbrains-coder"
+        tagline: "The Coder Gateway plugin lets you open Coder workspaces in your JetBrains IDEs with a single click."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Projector Client
+        link: "https://github.com/fioan89/projector-client"
+        tagline: "Common and client-related code for running Swing applications remotely"
+      
+      - title: Projector Server
+        link: "https://github.com/fioan89/projector-server"
+        tagline: "Server-side library for running Swing applications remotely"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Spock Mockable
+        link: "https://github.com/fioan89/spock-mockable"
+        tagline: "A JVM instrumentation libraries that allows enables Spock tests for Kotlin projects"
+
+      - title: Mechanize
+        link: "https://github.com/fioan89/mechanize"
+        tagline: "Stateful programmatic web browsing in Python, after Andy Lester's Perl module WWW::Mechanize"
+
+      - title: Coldswap
+        link: "https://github.com/fioan89/coldswap"
+        tagline: "A java agent for JVM that will reload a Java class file immediately after it is changed"
+      
+      - title: Liquibase
+        link: "https://github.com/fioan89/liquibase"
+        tagline: "Liquibase helps millions of developers track, version, and deploy database schema changes"
 
 skills:
     title: Skills &amp; Proficiency
