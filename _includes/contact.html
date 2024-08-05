@@ -75,13 +75,15 @@
 
     {% if sidebar.stack-overflow %}
     <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
-      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
+      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow
+        }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.codewars %}
     <li class="codewars"><i class="fas fa-code"></i>
-      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
+      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{
+        sidebar.codewars }}</a>
     </li>
     {% endif %}
 
@@ -93,7 +95,28 @@
 
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
+      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js">
+        function downloadPdf() {
+          var doc = new jsPDF();
+
+          // Source HTMLElement or a string containing HTML.
+          var elementHTML = document.querySelector(".wrapper");
+
+          doc.html(elementHTML, {
+            callback: function (doc) {
+              // Save the PDF
+              doc.save('Ioan Faur CV.pdf');
+            },
+            margin: [10, 10, 10, 10],
+            autoPaging: 'text',
+            x: 0,
+            y: 0,
+            width: 190, //target width in the PDF document
+            windowWidth: 675 //window width in CSS pixels
+          })
+        }
+      </script>
+      <a a href='' onclick='downloadPdf()'>Resume PDF</a>
     </li>
     {% endif %}
 
