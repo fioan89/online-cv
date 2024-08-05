@@ -105,8 +105,9 @@
           doc.html(elementHTML, {
             callback: function (doc) {
               // Save the PDF
-              doc.save('Ioan Faur CV.pdf');
+              doc.save();
             },
+            filename: 'Ioan Faur CV.pdf',
             margin: [10, 10, 10, 10],
             autoPaging: 'text',
             x: 0,
