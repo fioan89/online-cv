@@ -95,7 +95,9 @@
 
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js">
+      <script async src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" />
+      <a a href="javascript:downloadPdf()">Resume PDF</a>
+      <script>
         function downloadPdf() {
           var doc = new jsPDF();
 
@@ -117,7 +119,6 @@
           })
         }
       </script>
-      <a a href='' onclick='downloadPdf()'>Resume PDF</a>
     </li>
     {% endif %}
 
